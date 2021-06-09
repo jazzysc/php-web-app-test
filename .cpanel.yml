@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/stgtrem/public_html/app/code/Einfochips
+        - /bin/cp test.txt $DEPLOYPATH
